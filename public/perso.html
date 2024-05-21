@@ -1,0 +1,115 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Sert à identifier le personnage de la carte-->
+    <p id="character-name"></p>
+    
+    <header>
+        <h1>Harry Potter Trade</h1>
+        <h2>Give life to your favorite show</h2>
+    </header>
+
+    <!--Menu Navigation-->
+
+    <nav>
+        <ul>
+            <li><a href="profile.html">
+                <img src="img/user.png" alt="user">
+                <span class="nav-item">Profil</span>
+            </a></li>
+  
+            <li><a href="index.html">
+                <img src="img/home.png" alt="home">
+                <span class="nav-item">Home</span>
+            </a></li>
+  
+            <li><a href="cards.html">
+                <img src="img/game.png" alt="cards">
+                <span class="nav-item">Cards</span>
+            </a></li>
+  
+            <li><a href="exchange.html">
+                <img src="img/exchange-alt.png" alt="exchanges">
+                <span class="nav-item">Trade</span>
+            </a></li> 
+            <li><a href="#">
+                <img src="img/sign-out-alt.png" alt="Logout">
+                <span class="nav-item">Log out</span>
+            </a></li>
+        </ul>
+      </nav>
+
+      <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
+          <img src="img/logo.png" alt="Logo">
+      </button>
+
+      
+    <main>
+        <!--Partie haute du main-->
+        <div class="top">
+            <!--Image du perso-->
+            <div id="head-img">
+            </div>
+            <!--infos du perso-->
+            <div class="top-droit">
+                <div id="titre-plan">
+                </div>  
+                <!--On creer l'accordeons d'informations -->
+                <section class="accordeon">
+                    <div class="album">
+                        <p>More information on the card</p>
+                        <h2>+</h2>
+                    </div>
+                    <div id="contenu">
+                    </div>
+                </section>
+            </div>  
+        </div>
+
+        <!--Partie basse du main-->
+        <div class="bottom">
+            <!--lien vers la page exchange-->
+            <a href="exchange.html">
+                <h2 class="boutonTrade">Trade the card</h2>
+            </a>   
+            <!--lien vers la page home-->
+            <a href="index.html">
+                <h2 class="boutonn">Home</h2>
+            </a>  
+        </div>    
+    </main>
+
+
+    <footer>
+        <h2>Contact</h2>
+        <ul>
+            <li>
+                <img src="img/envelope.png" alt="Email">
+                <span class="nav-footer">harry.potter@gmail.com</span>
+            </li>
+            <li>
+                <img src="img/phone-call.png" alt="Phone">
+                <span class="nav-footer">+33 01 01 01 01 01</span>
+            </li>
+            <li>
+                <img src="img/home.png" alt="Adress">
+                <span class="nav-footer">108 rue de vaugirard 75006 Paris</span>
+            </li>
+        </ul>
+    </footer>
+
+    <!--scripts externe-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="JV/script_perso.js"></script>
+</body>
+</html>

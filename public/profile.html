@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Harry Potter Trade</h1>
+        <h2>Give life to your favorite show</h2>
+    </header>
+
+    <!--Menu Navigation-->
+
+    <nav>
+        <ul>
+            <li><a href="profile.html">
+                <img src="img/user.png" alt="user">
+                <span class="nav-item">Profil</span>
+            </a></li>
+  
+            <li><a href="index.html">
+                <img src="img/home.png" alt="home">
+                <span class="nav-item">Home</span>
+            </a></li>
+  
+            <li><a href="cards.html">
+                <img src="img/game.png" alt="cards">
+                <span class="nav-item">Cards</span>
+            </a></li>
+  
+            <li><a href="exchange.html">
+                <img src="img/exchange-alt.png" alt="exchanges">
+                <span class="nav-item">Trade</span>
+            </a></li> 
+            <li><a href="login.html">
+                <img src="img/sign-out-alt.png" alt="Logout">
+                <span class="nav-item">Log out</span>
+            </a></li>
+        </ul>
+      </nav>
+
+      <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
+          <img src="img/logo.png" alt="Logo">
+      </button>
+
+
+    <main>
+        <!--Affichage des infos-->
+        <div class="bigcontainer">
+            <div class="mediumcontainer feed-01">
+                <div class="idShow">
+                    <p class="userinfo"><b>Name: </b><span id="userName"></span></p>
+                    <p class="userinfo"><b>Email: </b><span id="userEmail"></span></p>
+                    <p class="userinfo"><b>Date of creation: </b><span id="userCreation"></span></p>
+
+                    <a href="update.html">Change your information</a>
+                </div>
+            </div>
+            <div class="mediumcontainer feed-02">
+                <h3>Favorite card :</h3>
+            </div>
+        </div>
+
+        <div class="creation">
+            <a id="login_link" href="login.html">Disconnect</a>
+        </div>
+    </main>
+
+
+    <footer>
+        <h2>Contact</h2>
+        <ul>
+            <li>
+                <img src="img/envelope.png" alt="Email">
+                <span class="nav-footer">harry.potter@gmail.com</span>
+            </li>
+            <li>
+                <img src="img/phone-call.png" alt="Phone">
+                <span class="nav-footer">+33 01 01 01 01 01</span>
+            </li>
+            <li>
+                <img src="img/home.png" alt="Adress">
+                <span class="nav-footer">108 rue de vaugirard 75006 Paris</span>
+            </li>
+        </ul>
+    </footer>
+
+
+
+    <script src="JV/script_index.js"></script>
+    <script src="JV/script_profil.js"></script>
+</body>
+</html>

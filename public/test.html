@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <!--Carte Clicker-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.js"></script> 
+
+    <main>
+        <div class="filters">
+            <ul>
+                <li data-filter="Ravenclaw"> <img id="Ravenclaw" src="img/ravenclaw.png" alt="Ravenclaw"> </li>
+                <li data-filter="Gryffindor"> <img id="Gryffindor" src="img/gryffondor.png" alt="Gryffindor"> </li>
+                <li data-filter="Hufflepuff"> <img id="Hufflepuff" src="img/poufsouffle.png" alt="Hufflepuff"> </li>
+                <li data-filter="Slytherin"> <img id="Slytherin" src="img/serpentard.png" alt="Slytherin"> </li>
+            </ul>
+            <input type="text" name="filtr-search" value="" placeholder="Your search" data-search="">
+        </div>
+        
+        <div class="portfolio-elements">
+            <div class="contain-card"></div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>
